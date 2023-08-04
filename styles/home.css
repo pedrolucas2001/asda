@@ -1,0 +1,38 @@
+#pagina{
+    background: #16143B;
+}
+
+.navbar-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav{
+    background-color: #2A2A80;
+    margin-bottom: 20px;
+}
+
+main{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#intro{
+    width: 80%;
+    margin: 0px auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+#neo4j{
+    width: 60%;
+    margin: 0 auto;
+}
