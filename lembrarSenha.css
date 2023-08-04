@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 16px;
+}
+
+#pagina{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imgs/vila-da-folha.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#janelaRecuperarSenha{
+    width: 500px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.719);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#LembrarSenha{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+#imgLembrarSenha{
+    width: 15%;
+    height: 80%;
+    margin: 0px auto;
+    background-image: url(imgs/iconeLembrarSenha.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#txtLembrarSenha{
+    width: 80%;
+    height: 15%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#inputEmail{
+    width: 80%;
+    height: 10%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 100%;
+    height: 70%;
+}
+#botaoEnviarLink{
+    width: 80%;
+    height: 10%;
+    margin: 0px auto;
+}
+#botaoEnviarLink button{
+    width: 100%;
+    height: 70%;
+}
+#txtAlternativo{
+    width: 80%;
+    height: 10%;
+    margin: 0px auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#botaoVoltarLogin{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+}
+#botaoVoltarLogin button{
+    width: 100%;
+    height: 70%;
+}   
