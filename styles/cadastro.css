@@ -133,12 +133,21 @@ form{
 }
  #menu{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 10px;
  }
 header{
     background-color: white;
 }
 
+
+#logoNaruto{
+    width: 150px;
+    background-image: url(../imgs/logoNaruto.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
 #linkEntrar{
     text-decoration: none;
     color: white;
