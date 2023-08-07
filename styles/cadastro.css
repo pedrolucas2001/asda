@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: Lilita One;
     src: url(fonts/LilitaOne-Regular.ttf);
 }
@@ -99,7 +99,7 @@ form{
     align-items: center;
     gap: 30px;
     /* text-align: center; */
-}
+/* }
 
 #campoGenero{
     text-align: center;
@@ -108,7 +108,7 @@ form{
     width: 30%;
     display: flex;
     align-items:center;
-}
+} */
 /* #imgJiraya{
     width: 400px;
     height: 280px;
@@ -122,4 +122,37 @@ form{
 #imgJiraya:hover{
     width: 450;
     height: 330px;
-} */
+/* } */
+
+#linkLogin{
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ #menu{
+    display: flex;
+    justify-content: flex-end;
+ }
+header{
+    background-color: white;
+}
+
+#linkEntrar{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+body{
+    background-image: url(../imgs/Vale-do-Fim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
