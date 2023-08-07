@@ -1,7 +1,7 @@
 # blog-naruto
 Projeto final do curso de front end trata-se de um blog informativo criado com as tecnologias aprendidas em sala. 
-Feito:
 
+Feito:
 1- Página Home do sistema com informações prévias
 2- Criação de SLIDER feito com BootStrap
 
