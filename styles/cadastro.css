@@ -135,6 +135,7 @@ form{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    margin: 0px 100px;
  }
 header{
     background-color: white;
@@ -160,8 +161,18 @@ main{
     padding-top: 150px;
 }
 
-body{
+#pagina{
     background-image: url(../imgs/Vale-do-Fim.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
+
+#btn-login{
+    width: 100%;
+}
+
+#link-login{
+    text-decoration: none;
+    color: white;
+ }

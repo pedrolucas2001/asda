@@ -15,15 +15,49 @@
                 <div id="logoNaruto">
 
                 </div>
-                <div id="linkLogin"><strong>JÁ TEM CONTA? </strong> 
-                    <button type="button" class="btn btn-primary"><a href="home.html" id="linkEntrar">ENTRAR </a></button>
-                    
+                <div id="linkLogin"><strong>JÁ TEM CONTA? </strong>
+
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    ENTRAR
+                  </button>
+
                 </div>
             </div>
+                      <!-- Botão para acionar modal -->
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ENTRAR</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <form class="form-signin">
+                    <img class="mb-4" src="imgs/logoAkatsuki.png" alt="" width="100">
+                    <h1 class="h3 mb-3 font-weight-normal">Faça login</h1>
+                    <input type="text" id="inputEmail" class="form-control" placeholder="Usuário" required autofocus="">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+                    <div class="checkbox mb-3">
+                      <label>
+                        <input type="checkbox" value="remember-me"> Lembrar de mim
+                      </label>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block" id="btn-login" type="submit"><a href="home.html" id="link-login">Login</a></button>
+                    <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                  <button type="button" class="btn btn-primary">Salvar alterações</button>
+                </div>
+              </div>
+            </div>
+          </div>    
         </header>
     
-            <main>
-                <div class="modal-dialog rounded role="document" style="width: 350px; background-color: white; ">
+        <main>
+                <div class="modal-dialog rounded role=document" style="width: 400px; background-color: white; ">
                     <div class="modal-content rounded-4 shadow ">
                       <div class="modal-header p-5 pb-4 border-bottom-0">
                         <h1 class="fw-bold mb-0 fs-2">Criar uma nova conta</h1>
@@ -48,7 +82,7 @@
                       </div>
                     </div>
                   </div>
-            </main>
+        </main>
     </div>
     
 

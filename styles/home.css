@@ -1,5 +1,6 @@
+
 #pagina{
-    background: #16143B;
+    background: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-item a{
@@ -9,8 +10,9 @@
 }
 
 nav{
-    background-color: #2A2A80;
+    background-color: black;
     margin-bottom: 20px;
+
 }
 
 main{
