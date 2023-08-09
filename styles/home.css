@@ -1,6 +1,9 @@
-
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
 #pagina{
-    background: rgba(0, 0, 0, 0.9);
+    font-family: Roboto;
 }
 
 .navbar-item a{
@@ -10,9 +13,7 @@
 }
 
 nav{
-    background-color: black;
     margin-bottom: 20px;
-
 }
 
 main{
@@ -37,4 +38,8 @@ main{
 #neo4j{
     width: 60%;
     margin: 0 auto;
+}
+
+main a{
+    color: black;
 }
